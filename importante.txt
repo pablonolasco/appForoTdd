@@ -1,0 +1,10 @@
+--==url es
+https://github.com/caouecs/Laravel-lang
+--==StydeNet/html
+https://github.com/StydeNet/html/tree/laravel5.3
+
+--==GrahamCampbell/Laravel-Markdown
+https://github.com/GrahamCampbell/Laravel-Markdown/tree/9.0
+--==ejecutaar una  conexion en especifico
+php artisan migrate --database=mysql_tests
+--==phpunit.xml modificar y agregar la conexion
