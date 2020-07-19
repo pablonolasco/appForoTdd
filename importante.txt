@@ -5,6 +5,9 @@ https://github.com/StydeNet/html/tree/laravel5.3
 
 --==GrahamCampbell/Laravel-Markdown
 https://github.com/GrahamCampbell/Laravel-Markdown/tree/9.0
---==ejecutaar una  conexion en especifico
+--==ejecutar una  conexion en especifico
+en el archivo config/database.php se crea la conexion
 php artisan migrate --database=mysql_tests
 --==phpunit.xml modificar y agregar la conexion
+--==práctica de desarrollo de software conocida como Continuous Integration (CI) o Integración Continua.
+--==configurar el composer autoload-dev
