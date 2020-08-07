@@ -26,7 +26,7 @@ class ExampleTest extends FeatureTestCase
     {
         //=== TODO usuario
         $user = factory(App\User::class)->create([
-            'name' => 'chubby ',
+            'name' => 'chubby',
             'email' => 'chubby@gmail.com ',
         ]);
 
