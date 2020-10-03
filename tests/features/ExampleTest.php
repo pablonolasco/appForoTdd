@@ -17,9 +17,15 @@ class ExampleTest extends FeatureTestCase
     Illuminate\Foundation\Testing\DatabaseTransactions que hace uso de transacciones de base de tatos para eliminar los datos creados por la prueba,
     al finalizar ésta. Por supuesto, ésta es la opción más rápida.
      */
+
     /**
      * A basic functional test example.
-     *
+     *actingAs para autenticar un usuario dado.
+     *visit para visitar una ruta o URL dado.
+     *type para escribir algún texto en un campo dado.
+     *press para hacer clic en un botón con el nombre dado.
+     *seeInDatabase para evaluar si el registro fue creado correctamente en la base de datos.
+     *seeInElement para evaluar si un elemento HTML contiene la información especificada. Puedes conocer más de este método en la lección: Métodos de pruebas within y seeInElement de InteractsWithPages en Laravel 5.2
      * @return void
      */
     function test_basic_example()
